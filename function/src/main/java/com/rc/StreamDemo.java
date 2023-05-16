@@ -257,8 +257,11 @@ public class StreamDemo {
         //实际用途
         Object o = new Object();
         boolean anyMatchStatus = Stream.of(new AMatch(), new BMatch()).anyMatch(x -> x.test(o));
+
+
         System.out.println(anyMatchStatus);
         boolean allMatch = Stream.of(new AMatch(), new BMatch()).allMatch(x -> x.test(o));
+
         System.out.println(allMatch);
     }
 
