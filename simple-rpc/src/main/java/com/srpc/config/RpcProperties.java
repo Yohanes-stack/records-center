@@ -8,12 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @ConfigurationProperties
 public class RpcProperties {
-
-    /**
-     * 端口号
-     */
-    private int port;
-
     /**
      * 注册中心地址
      */
@@ -29,13 +23,54 @@ public class RpcProperties {
      */
     private String registerPsw;
 
-    public int getPort() {
-        return port;
+    /**
+     * 当前服务ip
+     */
+    private String ip;
+    /**
+     * 当前服务名称
+     */
+    private String serviceName;
+
+    /**
+     * 协议端口
+     */
+    private int protocolPort;
+
+    private String version;
+
+    public String getVersion() {
+        return version;
     }
 
-    public void setPort(int port) {
-        this.port = port;
+    public void setVersion(String version) {
+        this.version = version;
     }
+
+    public int getProtocolPort() {
+        return protocolPort;
+    }
+
+    public void setProtocolPort(int protocolPort) {
+        this.protocolPort = protocolPort;
+    }
+
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
 
     public String getRegisterAddr() {
         return registerAddr;

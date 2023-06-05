@@ -12,6 +12,7 @@ import java.util.List;
 public interface RegistryService {
     /**
      * 服务注册
+     *
      * @param serviceMeta
      * @throws Exception
      */
@@ -19,6 +20,7 @@ public interface RegistryService {
 
     /**
      * 服务下线
+     *
      * @param serviceMeta
      * @throws Exception
      */
@@ -26,6 +28,7 @@ public interface RegistryService {
 
     /**
      * 查询服务
+     *
      * @param serviceName
      * @param invokerHashCode
      * @param loadBalancerType
@@ -36,6 +39,7 @@ public interface RegistryService {
 
     /**
      * 获取 serviceName 下的所有服务
+     *
      * @param serviceName
      * @return
      */
@@ -43,6 +47,7 @@ public interface RegistryService {
 
     /**
      * 关闭
+     *
      * @throws IOException
      */
     void destroy() throws IOException;
