@@ -26,7 +26,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
                 System.out.println("客户端登录失败！");
             }
             // 编码，结果发送给客户端
-            ByteBuf responseByteBuf = PacketCodeC.INSTANCE.encode(ctx.alloc(), loginResponsePacket);
+            ByteBuf responseByteBuf = PacketCodeC.INSTANCE.encode(ctx.alloc().buffer(), loginResponsePacket);
             ctx.channel().writeAndFlush(responseByteBuf);
         }
     }

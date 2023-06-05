@@ -24,9 +24,8 @@ public class PacketCodeC {
         serializerMap.put(serializer.getSerializerAlgorithm(),serializer);
     }
     //编码
-    public ByteBuf encode(ByteBufAllocator bufAllocator,Packet packet){
+    public ByteBuf encode(ByteBuf byteBuf,Packet packet){
         //创建ByteBuf对象
-        ByteBuf byteBuf = bufAllocator.ioBuffer();
         //序列化java对象
         byte[] bytes = Serializer.DEFAULT.serialize(packet);
 
