@@ -1,15 +1,9 @@
 package com.srpc.registry;
 
-import com.srpc.common.ServiceMeta;
-import com.srpc.config.RpcProperties;
-import com.srpc.registry.loadbalancer.LoadBalancerType;
+import com.srpc.configuration.RpcProperties;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-
-import java.io.IOException;
-import java.util.List;
 
 /**
  * 注册中心抽象层接口

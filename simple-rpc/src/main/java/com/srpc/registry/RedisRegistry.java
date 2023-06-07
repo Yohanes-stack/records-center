@@ -5,6 +5,7 @@ import com.srpc.common.ServiceMeta;
 import com.srpc.registry.loadbalancer.LoadBalancerFactory;
 import com.srpc.registry.loadbalancer.LoadBalancerType;
 import com.srpc.registry.loadbalancer.ServiceLoadBalancer;
+import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -18,9 +19,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/**
- *
- */
+@Component
 public class RedisRegistry extends AbstractRegistryService {
 
     private JedisPool jedisPool;

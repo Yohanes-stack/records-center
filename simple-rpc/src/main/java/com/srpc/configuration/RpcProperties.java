@@ -1,11 +1,13 @@
-package com.srpc.config;
+package com.srpc.configuration;
 
 import com.srpc.consumer.ConsumerPostProcessor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
  * 这样子做的话，会只支持spring boot，想最大程度支持的话，可以在{@link ConsumerPostProcessor} 里面去环境中获取
  */
+@Component
 @ConfigurationProperties
 public class RpcProperties {
     /**

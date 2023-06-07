@@ -10,10 +10,12 @@ import com.alibaba.nacos.api.naming.pojo.Service;
 import com.alibaba.nacos.common.utils.CollectionUtils;
 import com.srpc.common.ServiceMeta;
 import com.srpc.registry.loadbalancer.LoadBalancerType;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.*;
 
+@Component
 public class NacosRegistry extends AbstractRegistryService {
 
     private final NamingService namingService;

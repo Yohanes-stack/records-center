@@ -1,7 +1,7 @@
 package com.srpc.consumer;
 
 import com.srpc.annotation.RpcReference;
-import com.srpc.config.RpcProperties;
+import com.srpc.configuration.RpcProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
