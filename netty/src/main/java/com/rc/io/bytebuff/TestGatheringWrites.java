@@ -1,12 +1,10 @@
-package com.rc.netty.bytebuff;
+package com.rc.io.bytebuff;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
-
-import static com.rc.netty.ByteBufferUtil.debugAll;
 
 public class TestGatheringWrites {
     public static void main(String[] args) {

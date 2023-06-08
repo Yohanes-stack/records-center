@@ -1,9 +1,9 @@
-package com.rc.netty.bytebuff;
+package com.rc.io.bytebuff;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
-import static com.rc.netty.ByteBufferUtil.debugAll;
+import static com.rc.io.ByteBufferUtil.debugAll;
 
 public class TestByteBufferString {
     public static void main(String[] args) {

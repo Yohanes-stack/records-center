@@ -1,4 +1,4 @@
-package com.rc.netty.bytebuff;
+package com.rc.io.bytebuff;
 
 import java.nio.ByteBuffer;
 

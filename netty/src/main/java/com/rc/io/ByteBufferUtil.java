@@ -1,4 +1,4 @@
-package com.rc.netty;
+package com.rc.io;
 
 import io.netty.util.internal.MathUtil;
 import io.netty.util.internal.StringUtil;
