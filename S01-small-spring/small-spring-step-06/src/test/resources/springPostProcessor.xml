@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="testDao" class="org.springframework.test.bean.TestDao"></bean>
+
+    <bean id="testService" class="org.springframework.test.bean.TestService">
+        <property name="id" value="10001"></property>
+        <property name="testDao" ref="testDao"/>
+    </bean>
+
+    <bean class="org.springframework.test.common.MyBeanFactoryPostprocessor"/>
+    <bean class="org.springframework.test.common.myBeanPostProcessor"/>
+
+</beans>
