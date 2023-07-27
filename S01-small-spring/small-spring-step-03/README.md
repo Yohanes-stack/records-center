@@ -1,0 +1,9 @@
+# 第三篇 动态代理
+- - -
+新增 InstantiationStrategy接口类 定义代理实现的接口类
+
+新增 CglibSubclassingInstantiationStrategy实现类，实现InstantiationStrategy。使用cglib来进行动态代理
+
+新增 SimpleInstantiationStrategy实现类，实现InstantiationStrategy。使用jdk代理来进行动态代理
+
+然后就是改造bean的createBean的方法，主要改动在AbstractAutowireCapableBeanFactory通过cglib来进行bean的实例化
