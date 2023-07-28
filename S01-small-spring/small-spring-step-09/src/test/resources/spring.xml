@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+<!--    <bean id="testDao" class="org.springframework.test.bean.TestDao"  scope="prototype">-->
+<!--    </bean>-->
+
+    <bean id="proxyUserDao" class="org.springframework.test.bean.ProxyBeanFactory" scope="prototype"/>
+
+</beans>
