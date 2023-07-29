@@ -1,0 +1,11 @@
+# 第十篇 容器事件和事件监听器
+事件的设计是一种观察者模式，当一件事件需要通知时，只需要publicEvent即可完成通知
+
+监听器需要实现ApplicationListen接口,范型类型就是需要监听的事件
+
+而具体的事件需要实现ApplicationEvent接口
+
+事件监听器的通知顶级接口为ApplicationEventMulticaster
+其下的抽象类AbstractApplicationEventMulticaster 提供 监听器对象池 包括添加监听器，删除监听器
+
+SimpleApplicationEventMulticaster 是具体的实现类，主要做的就是去发布通知
