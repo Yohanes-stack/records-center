@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
 
-    <bean id="testService" class="org.springframework.test.TestService" init-method="initDataMethod" destroy-method="destroyDataMethod">
+    <bean id="testService" class="org.springframework.test.bean.TestService" init-method="initDataMethod" destroy-method="destroyDataMethod">
     </bean>
 
 </beans>
