@@ -15,6 +15,9 @@
         <module>S03-api-gateway</module>
         <module>S04-reactor-webflux</module>
         <module>S07-xxl-job</module>
+        <module>S07-xxl-job/xxl-job-01/xxl-job-admin</module>
+        <module>S07-xxl-job/xxl-job-01/xxl-job-core</module>
+        <module>S07-xxl-job/xxl-job-01/xxl-job-executor-samples</module>
     </modules>
 
     <properties>
