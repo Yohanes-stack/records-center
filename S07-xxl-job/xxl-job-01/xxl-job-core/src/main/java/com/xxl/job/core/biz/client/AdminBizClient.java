@@ -9,6 +9,10 @@ import com.xxl.job.core.util.XxlJobRemotingUtil;
  * 执行器访问调度中心客户端
  */
 public class AdminBizClient implements AdminBiz {
+
+    public AdminBizClient() {
+    }
+
     //调度中心的服务地址
     private String addressUrl;
     //token令牌，执行器和调度中心两端要一致
