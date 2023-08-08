@@ -15,6 +15,7 @@
         <module>S03-api-gateway</module>
         <module>S04-reactor-webflux</module>
         <module>S07-xxl-job</module>
+        <module>S08-docker-file</module>
     </modules>
 
     <properties>
