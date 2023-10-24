@@ -9,14 +9,17 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>jvm</module>
+        <module>S00-jvm</module>
         <module>S01-Small-Spring</module>
         <module>S02-simple-rpc</module>
         <module>S03-api-gateway</module>
         <module>S04-reactor-webflux</module>
-        <module>S07-xxl-job</module>
-        <module>S08-docker</module>
+        <module>S08-docker-file</module>
         <module>S09-Timing-Wheel</module>
+        <module>S10-spring-all-test</module>
+        <module>S10-spring-all-test/spring</module>
+        <module>S10-spring-all-test/open-feign</module>
+        <module>S11-SpringSecurity-demp</module>
     </modules>
 
     <properties>

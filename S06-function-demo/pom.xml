@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>function</artifactId>
+    <artifactId>S06-function-demo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

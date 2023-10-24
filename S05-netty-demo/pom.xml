@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>netty</artifactId>
+    <artifactId>S05-netty-demo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
