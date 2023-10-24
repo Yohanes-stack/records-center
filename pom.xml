@@ -19,7 +19,7 @@
         <module>S10-spring-all-test</module>
         <module>S10-spring-all-test/spring</module>
         <module>S10-spring-all-test/open-feign</module>
-        <module>S11-SpringSecurity-demp</module>
+        <module>S11-SpringSecurity-demo</module>
     </modules>
 
     <properties>

@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>S11-SpringSecurity-demp</artifactId>
+    <artifactId>S11-SpringSecurity-demo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
